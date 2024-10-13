@@ -13,33 +13,25 @@ const AdminHome = () => {
           </h1>
           <h3>Manage Blood Bank App </h3>
           <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-            explicabo animi blanditiis incidunt dicta quia, quibusdam facere
-            corporis! Dolores, reprehenderit cum sed repellat laudantium
-            architecto natus est nostrum accusamus, odio aspernatur minima
-            fugiat quam molestiae nisi. Temporibus impedit dolorem quia.
-            Distinctio modi non excepturi illo odio voluptatum quae nostrum a
-            temporibus sequi! Explicabo, quasi consequatur ad qui quos labore
-            distinctio voluptates alias nostrum ab dicta aspernatur molestias
-            adipisci quibusdam error ipsa. Totam, tenetur dolores eaque tempora
-            officiis deserunt assumenda? Rerum nemo est nihil laudantium
-            necessitatibus. Possimus, voluptatem voluptates blanditiis quas
-            aspernatur, quam, quaerat minus maiores ipsam sint perferendis
-            dolor. Dignissimos voluptatem doloribus sint in quis omnis, atque
-            neque praesentium voluptatum suscipit. Quas esse, accusantium maxime
-            obcaecati iure officiis aperiam minus alias quod cum quos qui
-            voluptatibus, numquam, ad id dolore odit! Minima laudantium sunt,
-            explicabo nesciunt quos voluptatibus qui libero eligendi praesentium
-            debitis obcaecati similique assumenda nobis labore totam dolore
-            perferendis adipisci fugiat quibusdam tempore doloremque voluptatum
-            accusantium. Accusamus, incidunt sequi. Esse sunt officia fuga,
-            officiis saepe tempora repellat suscipit aliquid cupiditate
-            perferendis, asperiores architecto molestiae rem iste eaque
-            molestias reiciendis. Laborum modi asperiores, reprehenderit
-            assumenda numquam, vitae exercitationem illum nesciunt, dolorum
-            deleniti accusamus consequatur id. Necessitatibus dolore ad fugit?
-          </p>
+          <h2>Who We Are</h2>
+      <p>We are a dedicated blood bank committed to ensuring a safe, adequate, and timely supply of blood to those in need. Our mission is to bridge the gap between blood donors and recipients, saving lives through the power of donation.</p>
+      
+      <h2>Our Mission</h2>
+      <p>Our mission is simple: to save lives by providing a platform where people can donate blood and help those in need. We believe in the power of community and the importance of giving back. Every drop counts, and your donation could mean the difference between life and death for someone in critical need.</p>
+      
+      <h2>What We Do</h2>
+      <p>We work with hospitals, clinics, and healthcare organizations to ensure that blood donations reach the people who need them the most. Our platform allows donors to easily register, schedule donations, and track their contributions. We also conduct awareness campaigns to educate the public about the importance of regular blood donations.</p>
+      
+      <h2>Why Donate Blood?</h2>
+      <ul>
+        <li>Each blood donation can save up to three lives.</li>
+        <li>Blood is essential for surgeries, cancer treatment, and trauma care.</li>
+        <li>Blood cannot be artificially manufactured – it can only come from generous donors like you.</li>
+        <li>Your donation helps maintain a stable blood supply for emergencies.</li>
+      </ul>
+      
+      <h2>Join Us in Saving Lives</h2>
+      <p>Become a donor today and be a part of a community that cares. Whether you're a first-time donor or a regular contributor, your involvement makes a significant impact. Together, we can ensure that no one has to wait for the lifesaving gift of blood.</p>
         </div>
       </div>
     </Layout>

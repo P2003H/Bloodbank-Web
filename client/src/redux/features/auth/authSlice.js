@@ -32,17 +32,17 @@ const authSlice = createSlice({
       state.error = payload;
     });
     // REGISTER user
-    builder.addCase(userRegister.pending, (state) => {
+     builder.addCase(userRegister.pending, (state) => {
       state.loading = true;
       state.error = null;
     });
     builder.addCase(userRegister.fulfilled, (state, { payload }) => {
       state.loading = false;
-      state.user = payload.user;
+      state.user = payload.user || null; // Add fallback value
     });
     builder.addCase(userRegister.rejected, (state, { payload }) => {
       state.loading = false;
-      state.error = payload;
+      state.error = payload || "Registration failed";
     });
     // CURRENT user
     builder.addCase(getCurrentUser.pending, (state) => {
