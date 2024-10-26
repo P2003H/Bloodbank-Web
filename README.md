@@ -34,7 +34,9 @@ This is a MERN stack-based web application for managing blood bank inventory, do
    git clone https://github.com/P2003H/Bloodb
    ank-Web.git
    cd blood-bank-app
-
+2. **Youtube Link**:
+3. https://youtu.be/tfwzivpI7SM
+  
 
 
 
