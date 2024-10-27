@@ -17,17 +17,15 @@ const app = express();
 //middlewares
 app.use(express.json());
 
-const allowedOrigins = ["https://bloodbank-web-2.onrender.com"];
 
-app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  }
-}));
+
+app.use(cors(
+  {
+    origin:["https://bloodbank-web-quln-edxsq8d77-p2003hs-projects.vercel.app/"],
+    methods:["POST","GET"],
+    credentials:true
+}
+));
 app.use(morgan("dev"));
 
 //routes
