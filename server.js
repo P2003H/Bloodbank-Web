@@ -19,13 +19,7 @@ app.use(express.json());
 
 
 
-app.use(cors(
-  {
-    origin:["https://bloodbank-web-quln.vercel.app"],
-    methods:["POST","GET","PUT","DELETE"],
-    credentials:true
-}
-));
+app.use(cors());
 app.use(morgan("dev"));
 
 //routes
